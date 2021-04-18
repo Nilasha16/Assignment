@@ -25,4 +25,17 @@ public class HomePage extends BaseClassF {
 		
 		
 	}
+	
+	@Test
+	
+	public void CalendarAction()
+	{
+		SecondPageObjects.searchEDate(driver).sendKeys("2/1/2021", Keys.ENTER);
+	}
+	
+	@Test
+	public void CalendarAction2()
+	{
+		SecondPageObjects.searchEDate(driver).sendKeys("2/10/2021", Keys.ENTER);
+	}
 }
