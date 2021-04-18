@@ -24,12 +24,7 @@ public class HomePage extends BaseClassF {
 		lp.username.sendKeys("demo");
 		lp.password.sendKeys("demo");
 		lp.loginBtn.click();
-		
-		
-		
-		
-	}
-	
+		}
 	@Test
 	public void GetNumberOfRecords_02()
 	{ 
@@ -102,5 +97,4 @@ public class HomePage extends BaseClassF {
 	       System.out.println(sum);
 	       System.out.println(ram);
 	     }
-}
 }
